@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React + TS</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- Vapi Chat Widget -->
+    <vapi-widget assistant-id="0db87fab-f87f-4919-a21e-31469df88433" public-key="b567aa4f-4374-4545-8f93-8d8c66b3670e" style="
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+  ">
+    </vapi-widget>
+    <!-- Vapi Script -->
+    <script src="https://unpkg.com/@vapi-ai/client-sdk-react/dist/embed/widget.umd.js" async type="text/javascript">
+    </script>
+    <script type="module" src="/src/index.tsx"></script>
+  </body>
+</html>
