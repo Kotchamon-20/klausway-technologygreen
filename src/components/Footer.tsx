@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import { FacebookIcon, TwitterIcon, LinkedinIcon, GithubIcon, MailIcon, PhoneIcon, MapPinIcon } from 'lucide-react';
-import Logo from '../Photo/logo klaus-01222-01.svg';
 export function Footer() {
   return <footer className="bg-teal-950 text-gray-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -8,7 +7,7 @@ export function Footer() {
           {/* Company Info */}
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <img src={Logo} alt="Logo" className="w-10 h-10 object-contain" />
+              <img src="/logo-klaus.svg" alt="Logo" className="w-10 h-10 object-contain" />
               <span className="text-white font-bold text-xl">
                 Klausway Technology
               </span>
