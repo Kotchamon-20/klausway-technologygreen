@@ -7,11 +7,11 @@ export function FAQ() {
   const faqCategories = [{
     category: 'General',
     questions: [{
-      question: 'What services does TechSolutions offer?',
+      question: 'What services does Klausway-technology offer?',
       answer: 'We offer comprehensive IT consulting, CMS development and implementation, 24/7 IT support and maintenance, cybersecurity solutions, data management, and system integration services. Our solutions are tailored to meet the unique needs of businesses across various industries.'
     }, {
-      question: 'How long has TechSolutions been in business?',
-      answer: 'TechSolutions was founded in 2009 and has been providing cutting-edge IT solutions for over 15 years. We have successfully completed over 500 projects and maintain a 98% client satisfaction rate.'
+      question: 'How long has Klausway-technology been in business?',
+      answer: 'Klausway-technology was founded in 2009 and has been providing cutting-edge IT solutions for over 15 years. We have successfully completed over 500 projects and maintain a 98% client satisfaction rate.'
     }, {
       question: 'What industries do you serve?',
       answer: 'We serve a wide range of industries including e-commerce, healthcare, education, finance, retail, and enterprise technology. Our team has expertise in delivering industry-specific solutions that comply with relevant regulations and best practices.'

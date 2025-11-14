@@ -32,7 +32,7 @@ export function Contact() {
   }, {
     icon: <MailIcon size={24} />,
     title: 'Email Us',
-    content: 'info@techsolutions.com'
+    content: 'info@klausway-technology.com'
   }, {
     icon: <ClockIcon size={24} />,
     title: 'Business Hours',

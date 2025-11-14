@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { MenuIcon, XIcon } from 'lucide-react';
-import Logo from '../Photo/Logo.png';
+import Logo from '../Photo/logo klaus-01222-01.svg';
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -38,7 +38,7 @@ export function Header() {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <img src={Logo} alt="Logo" className="w-10 h-10 object-contain" />
-            <span className="text-white font-bold text-xl">TechSolutions</span>
+            <span className="text-white font-bold text-xl">Klausway Technology</span>
           </Link>
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">

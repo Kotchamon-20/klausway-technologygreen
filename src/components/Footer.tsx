@@ -1,7 +1,6 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { FacebookIcon, TwitterIcon, LinkedinIcon, GithubIcon, MailIcon, PhoneIcon, MapPinIcon } from 'lucide-react';
-import Logo from '../Photo/Logo.png';
+import Logo from '../Photo/logo klaus-01222-01.svg';
 export function Footer() {
   return <footer className="bg-teal-950 text-gray-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -11,7 +10,7 @@ export function Footer() {
             <div className="flex items-center space-x-2 mb-4">
               <img src={Logo} alt="Logo" className="w-10 h-10 object-contain" />
               <span className="text-white font-bold text-xl">
-                TechSolutions
+                Klausway Technology
               </span>
             </div>
             <p className="text-sm text-gray-400 mb-4">
@@ -95,14 +94,14 @@ export function Footer() {
               </li>
               <li className="flex items-center space-x-2">
                 <MailIcon size={18} className="text-teal-400 flex-shrink-0" />
-                <span className="text-sm">info@techsolutions.com</span>
+                <span className="text-sm">info@klausway-technology.com</span>
               </li>
             </ul>
           </div>
         </div>
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-sm text-gray-400">
-            © 2024 TechSolutions. All rights reserved.
+            © 2024 Klausway-technology. All rights reserved.
           </p>
         </div>
       </div>

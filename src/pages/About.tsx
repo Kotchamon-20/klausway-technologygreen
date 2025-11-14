@@ -43,7 +43,7 @@ export function About() {
       <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-teal-400 to-teal-600 bg-clip-text text-transparent">
-            About TechSolutions
+            About Klausway-technology
           </h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             Leading the way in IT consulting and CMS solutions since 2009
@@ -56,7 +56,7 @@ export function About() {
           <div>
             <h2 className="text-4xl font-bold mb-6">Our Story</h2>
             <p className="text-gray-300 mb-4">
-              Founded in 2009, TechSolutions has grown from a small startup to a
+              Founded in 2009, Klausway-technology has grown from a small startup to a
               leading provider of IT consulting and CMS solutions. Our journey
               has been driven by a passion for technology and a commitment to
               helping businesses succeed.
